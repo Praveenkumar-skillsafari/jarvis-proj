@@ -22,9 +22,9 @@ function greet() {
 }
 
 window.addEventListener("load", () => {
-  speak("Activation  Jarvis");
-  //   speak("Going Online");
+  speak("Activation  Jarvis");   
   greet();
+  speak("How can I help You?");
 
   let SpeechRecognition =
     window.SpeechRecognition || window.webkitSpeechRecognition;
