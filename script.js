@@ -13,12 +13,12 @@ function greet() {
   let hr = day.getHours();
 
   if (hr >= 0 && hr < 12) {
-    speak("Good Morning bro");
+    speak("Good Morning boss");
   } else if (hr == 12) {
-    speak("Good noon bro");
+    speak("Good noon boss");
   } else if (hr > 12 && hr <= 17) {
-    speak("Good Afternoon bro");
-  } else speak("Good Evening  bro");
+    speak("Good Afternoon boss");
+  } else speak("Good Evening  boss");
 }
 
 window.addEventListener("load", () => {
